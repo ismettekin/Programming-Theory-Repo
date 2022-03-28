@@ -10,7 +10,6 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] GameObject cam;
     [SerializeField] GameObject car;
-    [SerializeField] GameObject gameOverTitle;
 
     private Vector3 camOffset = new Vector3(0f, 2f, -5.5f);
     private void Awake() 

@@ -29,8 +29,6 @@ RenderSettings:
 <<<<<<< Updated upstream
   m_SkyboxMaterial: {fileID: 2100000, guid: 169a1b8f06c17c84e8de491f2bfef986, type: 2}
 =======
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
->>>>>>> Stashed changes
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -44,9 +42,6 @@ RenderSettings:
   m_Sun: {fileID: 0}
 <<<<<<< Updated upstream
   m_IndirectSpecularColor: {r: 0.5905447, g: 0.396132, b: 0.6245573, a: 1}
-=======
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
->>>>>>> Stashed changes
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -214,7 +209,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71331f80dc3573c4ca838f686d05f10f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  carSpeed: 75
+  carSpeed: 50
 --- !u!54 &120625730
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -228,8 +223,8 @@ Rigidbody:
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 112
+  m_Interpolate: 1
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!65 &120625731
 BoxCollider:
@@ -317,6 +312,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1900941508}
     m_Modifications:
+    - target: {fileID: -4232274082514714944, guid: 1060f28bab45ab94eb490830df68466e, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4232274082514714944, guid: 1060f28bab45ab94eb490830df68466e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2581800735424805860, guid: 1060f28bab45ab94eb490830df68466e, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -971,7 +974,6 @@ MonoBehaviour:
   isGameActive: 1
   cam: {fileID: 1766238555}
   car: {fileID: 1166352755}
-  gameOverTitle: {fileID: 0}
 --- !u!1 &1166352755 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8996738896348453905, guid: eb52a0106741f714ba4ac640781b765f, type: 3}
@@ -989,7 +991,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1a4046621742d644915deb5689b9c6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  carSpeed: 50
+  carSpeed: 35
 --- !u!54 &1166352758
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1003,8 +1005,8 @@ Rigidbody:
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 112
+  m_Interpolate: 1
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!65 &1166352759
 BoxCollider:
@@ -2016,8 +2018,8 @@ Rigidbody:
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 112
+  m_Interpolate: 1
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!114 &4469870816900134766
 MonoBehaviour:
@@ -2031,7 +2033,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89d2df2ac8f029b49acf3c100dbeddbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  carSpeed: 100
+  carSpeed: 75
 --- !u!65 &4469870816900134768
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2043,8 +2045,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.1527522, y: 1.3289094, z: 4.881936}
-  m_Center: {x: -0.17955995, y: 0.6644547, z: 0.015550137}
+  m_Size: {x: 2.298304, y: 1.3498154, z: 4.9333096}
+  m_Center: {x: -0.106784105, y: 0.6540017, z: 0.041236877}
 --- !u!1001 &4764147629329212034
 PrefabInstance:
   m_ObjectHideFlags: 0
